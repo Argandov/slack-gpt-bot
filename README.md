@@ -5,7 +5,9 @@ Chatbot for Slack using GPT and LangChain
 
 This is a customized version from [Dave Ebbelaar](https://www.daveebbelaar.com)'s **AWESOME** post [Slack AI Assistant with Python & LangChain](https://docs.datalumina.io/3y3XPD66nBJaub). Most of the code remains the same, except with some extra functions and of course the handling of the information (Dave's original implementation was about a bot that wrote Emails. This one is more like ChatGPT with no particular intention by default).
 
+![debbie-conversation](slack_debbie_conversation.PNG)
 This implementation is a vanilla GPT chatbot, that can be extended by using Langchain's tools and "chains" (Reaching out to the internet, act on specific things on your behalf, interact with other APIs, etc.). By default, this code is a GPT Chatbot that uses GPT-3.5 Turbo.
+
 
 # Installation and requirements
 
